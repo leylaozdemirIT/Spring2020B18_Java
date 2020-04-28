@@ -39,6 +39,33 @@ public class ArrayList_Methods {
         list3.add(3); // 2
         list3.add(4); // 3
 
+        // {1,2,3,4}
+
+        list3.remove(1); // {1,3,4} // if you give the primitive, than the object at that index will be removed
+
+        /*
+        // {1,2,3,4}
+        Integer a = 1;
+        list3.remove(a); // if you give the Object, then the object itself will be removed
+        */
+
+
+        System.out.println(list3);
+
+        ArrayList<Integer> list4 = new ArrayList<>();
+        list4.add(10);
+        list4.add(20);
+        list4.add(30);
+
+     // list4.remove(20); // if you pass int, the object at given index will be removed
+        list4.remove(1); // one way of removing
+        Integer a2 = 100;
+        boolean r1 = list4.remove(a2); // second way of removing, returns boolean
+
+        System.out.println(list4);
+        System.out.println(r1);
+
+
 
     }
 }
