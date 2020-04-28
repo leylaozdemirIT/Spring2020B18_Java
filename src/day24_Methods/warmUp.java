@@ -23,8 +23,9 @@ public class warmUp {
 
         System.out.println("=========================");
 
-        double n1=500000;
-        double n2=5;
+        double n1 = 500000;
+        double n2 = 5;
+
 
        Calculation(n1, n2, '/');
 

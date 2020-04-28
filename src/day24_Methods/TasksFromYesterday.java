@@ -24,17 +24,17 @@ public class TasksFromYesterday {
         arrDesc(arr2);
     }
 
-    public static void maxNumber(int[] numbers) {
+    public static void maxNumber(int[] array) {
 
-        Arrays.sort(numbers);
-        System.out.println("Maximum number is: " + numbers[numbers.length - 1]);
+        Arrays.sort(array);
+        System.out.println("Maximum number is: " + array[array.length - 1]);
 
     }
 
-    public static void minNumber(int[] numbers) {
+    public static void minNumber(int[] array) {
 
-        Arrays.sort(numbers);
-        System.out.println("Minimum number is: " + numbers[0]);
+        Arrays.sort(array);
+        System.out.println("Minimum number is: " + array[0]);
     }
 
     public static void arrDesc(int[] numbers) {
