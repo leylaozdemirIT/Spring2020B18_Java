@@ -32,7 +32,7 @@ public class StringManipulations_Practice {
 
         /*
         Assignment:
-            write me a programk that asks the user firt and last names, then prints the initials.
+            write me a program that asks the user first and last names, then prints the initials.
             ex:
                 input:
                     cybertek
