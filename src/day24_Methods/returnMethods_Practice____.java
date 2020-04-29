@@ -2,7 +2,7 @@ package day24_Methods;
 
 import java.util.Arrays;
 
-public class returnMethods_Practice {
+public class returnMethods_Practice____ {
 
     public static void main(String[] args) {
         int [] arr = {9,8,7,100,200,50,40};
