@@ -3,7 +3,7 @@ package day32_Predicate;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class warmup {
+public class MoveZeros {
     public static void main(String[] args) {
        /*
        Write a program that can move all the zeros to  last indexes of ArrayList
