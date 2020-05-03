@@ -38,7 +38,7 @@ public class Dates {
         System.out.println("Today is: "+now);
 
         String str = now.toString();
-        System.out.println(str.replace("-",""));
+        System.out.println(str.replace("-","/"));
 
         // month/day/year
 

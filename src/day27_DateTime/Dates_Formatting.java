@@ -20,11 +20,11 @@ public class Dates_Formatting {
         ex: 2020 04 23
         Apr / 23 / 20
          */
-
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("EEE MMM/dd/yy");
 
-        LocalDate date2 = LocalDate.of(1974,12,31);
-        String str1 = date2.format(dtf2);
+        LocalDate birthdate = LocalDate.of(1974,12,31);
+
+        String str1 = birthdate.format(dtf2);
 
         System.out.println(str1);
 

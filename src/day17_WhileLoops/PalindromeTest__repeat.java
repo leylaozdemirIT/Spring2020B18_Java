@@ -1,6 +1,6 @@
 package day17_WhileLoops;
 
-public class PalindromeTest {
+public class PalindromeTest__repeat {
 
     public static void main(String[] args) {
         String str = "level";

@@ -6,7 +6,7 @@ package day20_ArraysContinue;
 
 import java.util.Arrays;
 
-public class CombineTwoArrays {
+public class CombineTwoArrays__repeat {
 
     public static void main(String[] args) {
 

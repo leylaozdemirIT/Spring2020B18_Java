@@ -7,7 +7,7 @@ public class LocalDate_Practice {
 /*
 create an array of string, store five of your friends names in it
 create Array of localdates and store thier birthdays in the same order
-use for loop to print out your friends' names and thier birthdays
+use for loop to print out your friends' names and their birthdays
  */
     public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ use for loop to print out your friends' names and thier birthdays
             String names = friends[i];
             LocalDate bd = Birthdays[i];
 
-            System.out.println( names + "'s birthday is " + bd);
+            System.out.println( names + "'s birthday is " + bd );
         }
         int a = 100;
         int b = 200;

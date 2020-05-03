@@ -1,6 +1,6 @@
 package day26_MethodOverloading;
 
-public class Frequency {
+public class Frequency__repeat {
     /*
      1. write a return method called frequency that accepts two parameters: string str and char ch, the method returns the frequency of the ch from the str as an int
             Ex:

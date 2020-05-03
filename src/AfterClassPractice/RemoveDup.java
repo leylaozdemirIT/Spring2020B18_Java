@@ -2,7 +2,7 @@ package AfterClassPractice;
 
 public class RemoveDup {
     public static void main(String[] args) {
-
+//this method remove duplicates and stores them in another string
         String str = "ABCABC";
         String unique = "";
 
@@ -15,4 +15,7 @@ public class RemoveDup {
         System.out.println(unique);
 
         System.out.println("=========================");
-    }}
+    }
+
+
+}

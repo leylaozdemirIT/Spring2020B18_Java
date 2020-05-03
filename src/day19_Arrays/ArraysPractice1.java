@@ -1,5 +1,7 @@
 package day19_Arrays;
 
+import java.util.Arrays;
+
 public class ArraysPractice1 {
 
     public static void main(String[] args) {
@@ -12,10 +14,11 @@ public class ArraysPractice1 {
         String s1 = names[2];
         System.out.println(s1);
 
+
         for (int i = 0; i <= 4; i++) {
             String family = names[i];
             //System.out.println(names[i]);
-            System.out.println(family);
+            System.out.println( family ) ;
         }
 
         String[] emails = {"cybertek@yahoo.com", "cybertek@gmail.com", "cybertek@hotmail.com", "cybertek@outlook.com"};

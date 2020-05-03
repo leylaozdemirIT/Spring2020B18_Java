@@ -5,7 +5,7 @@ public class Birthday {
 
 
     public static void main(String[] args) {
-        HappyBirthDay(2000, 4, 24);
+        HappyBirthDay(2020, 5, 1);
 
 
     }

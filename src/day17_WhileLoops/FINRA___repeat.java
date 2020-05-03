@@ -6,7 +6,7 @@ package day17_WhileLoops;
         instead of the number
         Ex:
         1 2 FIN 4 RA FIN .... FINRA*/
-public class FINRA {
+public class FINRA___repeat {
     public static void main(String[] args) {
         String result = "";
 

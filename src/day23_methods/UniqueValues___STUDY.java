@@ -11,7 +11,7 @@ package day23_methods;
             MUST use for each loop
  */
 
-public class UniqueValues {
+public class UniqueValues___STUDY {
 
     public static void main(String[] args) {
 
