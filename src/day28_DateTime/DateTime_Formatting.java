@@ -12,7 +12,7 @@ public class DateTime_Formatting {
 
         // Tue 12/25/2015 11:30 am
 
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy hh:mm:ss a, EEE");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EE MM/dd/yyyy hh:mm:ss a");
 
         System.out.println( datetime1.format(dtf) );
 

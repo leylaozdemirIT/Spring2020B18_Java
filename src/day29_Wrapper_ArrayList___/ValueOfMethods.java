@@ -1,4 +1,4 @@
-package day29_Wrapper_ArrayList;
+package day29_Wrapper_ArrayList___;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class ValueOfMethods {
         System.out.println(a);
 
         double b = Integer.valueOf(str);  // unboxing
-        // double  = Integer
+        // double  = Integer . Primitives accept Wrapper Class
 
         System.out.println(b);
 
@@ -47,7 +47,7 @@ public class ValueOfMethods {
       "123456"  ==> to int
        */
 
-        String r1 = "TrUE";
+        String r1 = "True";
         Boolean t1 = Boolean.valueOf(r1); // Boolean, true
         // Boolean = Boolean  // none
 
@@ -78,7 +78,7 @@ public class ValueOfMethods {
         System.out.println("=================================");
 
         char[] arr = new char[3];
-        System.out.println(Arrays.toString(arr) );
+        System.out.println( Arrays.toString(arr) );
 
         Integer[] arr2 = new  Integer[3];
         System.out.println(Arrays.toString(arr2) );
