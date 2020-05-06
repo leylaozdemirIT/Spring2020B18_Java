@@ -25,7 +25,7 @@ public class ArrayList_Reverse {
             reversedList.add( list.get(i) );
         }
 
-        System.out.println(reversedList);
+        System.out.println(reversedList+" ");
 
 
     }

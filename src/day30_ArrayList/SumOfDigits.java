@@ -24,6 +24,7 @@ public class SumOfDigits {
 
         int sum = 0;
 
+
         for (char each : arr){
             /*
             boolean isDigit = each>=48 && each <= 57;
@@ -31,17 +32,14 @@ public class SumOfDigits {
                sum +=  Integer.parseInt(""+ each); // "0"
              */
 
-            if (Character.isDigit(each)){ //isDigit(): identifies if the character is digit
-                sum += Integer.parseInt(""+each);
+        if (Character.isDigit(each)){ //isDigit(): identifies if the character is digit
+          sum += Integer.parseInt(""+each);
             }
 
         }
         System.out.println(sum);
 
         boolean a = Character.isAlphabetic('A'); // identifies if the character is alphabet
-/*
-assignment task:
-extract the digits and letters from a string
- */
+
     }
 }
