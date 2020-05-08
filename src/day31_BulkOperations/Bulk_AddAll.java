@@ -20,7 +20,8 @@ public class Bulk_AddAll {
 
         // list1.addAll( Arrays.asList(30,40,20,50,45,35,200) ); - one way
 
-        Integer [] arr1 = {30,20,40,50,45,35,200};
+        Integer [] arr1 = {30,20,40,50,45,35,200}; // we can not use int data structure,
+        // because ArrayList does not support primitive
 
         list1.addAll( Arrays.asList(arr1)); // this is the second way
 
@@ -29,7 +30,7 @@ public class Bulk_AddAll {
         System.out.println("===================================");
         String [] names = {"Murtaza", "Muhtar", "Muhesong", "Sada", "Rustem"};
 
-        // names [5] = "Osman";
+        // names [5] = "Osman"; //
 
         System.out.println( Arrays.toString(names) );
 
@@ -38,6 +39,8 @@ public class Bulk_AddAll {
         nameList.addAll ( Arrays.asList(names) );
 
         nameList.add("Osman");
+        System.out.println(Arrays.asList(nameList));
+
         nameList.remove("Muhtar");
         System.out.println(nameList);
 

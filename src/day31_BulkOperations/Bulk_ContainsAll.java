@@ -31,7 +31,8 @@ public class Bulk_ContainsAll {
         boolean result3 =  list1.containsAll( Arrays.asList(data)  );
         System.out.println(result3);
 
-        // list1.containsAll( 1,2,3,4,5 );
+        boolean r2 = list1.containsAll( Arrays.asList(1,2,3,4,5 ) ) ;
+        System.out.println(r2);
 
 
 

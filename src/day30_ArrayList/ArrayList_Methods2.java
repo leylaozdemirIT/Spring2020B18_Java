@@ -27,17 +27,17 @@ public class ArrayList_Methods2 {
         System.out.println(list.size());
 
         ArrayList<Integer> list2 = new ArrayList<>();
-        list2.add(1);
-        list2.add(1);
-        list2.add(2);
-        list2.add(3);
+        list2.add(1);   // index:0
+        list2.add(1);   //      :1
+        list2.add(2);   // index:2
+        list2.add(3);   // index:3
 
         int num1 = list2.indexOf(1); // 0
         // Integer = int // Autoboxing
 
         System.out.println(num1);
 
-        int num2 = list2.indexOf(100);
+        int num2 = list2.indexOf(100); // if Object does not exit, it will give you -1
         System.out.println(num2);
 
         int num3 = list2.indexOf(3);

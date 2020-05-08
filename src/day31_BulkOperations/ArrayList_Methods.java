@@ -59,7 +59,9 @@ public class ArrayList_Methods {
 
         for(int i =list3.size()-1; i >= 0;  i--){
             //  System.out.print( list3.get(i) +" " );
-            reversedList3.add( list3.get(i) );
+           reversedList3.add( list3.get(i) );
+           //int num =  list3.get(i); second way of doing it, we initialize to a num
+           //reversedList3.add(num);  and add it to the ReversedList ArrayList
         }
 
         System.out.println(reversedList3);
