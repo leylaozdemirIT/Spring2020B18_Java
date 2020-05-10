@@ -1,4 +1,4 @@
-package day33_CustomClass___CONT;
+package day33_CustomClass;
 
 import java.util.ArrayList;
 

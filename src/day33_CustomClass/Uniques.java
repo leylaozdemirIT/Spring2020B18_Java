@@ -1,4 +1,4 @@
-package day33_CustomClass___CONT;
+package day33_CustomClass;
 /*write a program that can return the unique objects from a anArray List of Integers
 			Ex:
 				list: {1,1,2,3,4,5,5}

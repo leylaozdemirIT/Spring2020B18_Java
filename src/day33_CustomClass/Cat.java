@@ -1,4 +1,4 @@
-package day33_CustomClass___CONT;
+package day33_CustomClass;
 /*
 cat class:
     data / attributes: instance variables

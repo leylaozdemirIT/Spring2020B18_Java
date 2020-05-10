@@ -1,4 +1,4 @@
-package day33_CustomClass___CONT;
+package day33_CustomClass;
 
 public class CarObjects {
     public static void main(String[] args) {
