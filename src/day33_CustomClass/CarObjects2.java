@@ -1,4 +1,4 @@
-package day33_CustomClass;
+package day33_CustomClass___CONT;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,7 +31,6 @@ public class CarObjects2 {
         for(int i = 0; i < cars.length; i++){
             cars[i].getCarInfo();
         }
-
         System.out.println("======================================================");
 
         for(Car eachCar : cars){
@@ -44,6 +43,12 @@ public class CarObjects2 {
 
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         System.out.println( list1 );  // toString method gets executed automatically
+/*
+If you do not have the toString method in the custom class that you have created, than
+you will not be able to print the result
+ */
+        ArrayList<Car> each = new ArrayList<> (Arrays.asList(car1,car2,car3));
+        System.out.println(each);
 
 
 

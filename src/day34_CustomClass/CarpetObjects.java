@@ -1,8 +1,5 @@
 package day34_CustomClass;
 
-import day33_CustomClass.Car;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 

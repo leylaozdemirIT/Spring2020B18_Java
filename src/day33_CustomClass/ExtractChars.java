@@ -1,6 +1,5 @@
-package day33_CustomClass;
+package day33_CustomClass___CONT;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /*write a program that can extract the sepecial characters, digits and alphabets from a string and stores them into seperate ArrayLists of Character:
