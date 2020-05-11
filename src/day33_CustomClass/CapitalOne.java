@@ -6,6 +6,7 @@ public class CapitalOne {
         BankAccount Anna = new BankAccount();
         Anna.accountHolder = "Anna";
         Anna.accountNumber = 123456;
+        Anna.balance = 300;
 
         Anna.checkingBalance();
         Anna.deposit(33);
@@ -20,7 +21,7 @@ public class CapitalOne {
 
         Anna.checkingBalance();
 
-        Anna.withDraw(1000);
+        Anna.withDraw(220);
 
         Anna.checkingBalance();
 

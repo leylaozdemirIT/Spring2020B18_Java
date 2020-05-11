@@ -24,12 +24,13 @@ public class StudentObjects {
 
         canGraduate.removeIf(p-> p.gpa <= 3.0 );
 
-        System.out.println( canGraduate.size() );
+        System.out.println(canGraduate.size());
 
         for (int i=0; i<canGraduate.size(); i++){
             Student each = canGraduate.get(i);
             System.out.println(each.name + " can graduate");
         }
+
         System.out.println("============================");
 
         ArrayList<Student> canNotGraduate = new ArrayList<>( Arrays.asList(students) );

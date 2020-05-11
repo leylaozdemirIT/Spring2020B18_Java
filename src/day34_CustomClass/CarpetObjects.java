@@ -18,26 +18,26 @@ carpets[4].customOrder(35,45,35,false);
 
         ArrayList<Carpet> persianCarpets = new ArrayList<>();
 
-        for (Carpet eachCarpet : carpets){
+        for (Carpet eachCarpet : carpets) {
 
-            if (eachCarpet.isPersian){
+            if (eachCarpet.isPersian) {
                 persianCarpets.add(eachCarpet);
             }
         }
-        System.out.println ( "There are " + persianCarpets.size() + " persian carpets" );
+        System.out.println("There are " + persianCarpets.size()+ " persian carpets");
 
-        System.out.println( persianCarpets.get(0).calcCost() );
-        System.out.println( persianCarpets.get(1).calcCost() );
+        System.out.println(persianCarpets.get(0).calcCost());
+        System.out.println(persianCarpets.get(1).calcCost());
 
-        ArrayList<Carpet> regularCarpets = new ArrayList<>( Arrays.asList(carpets) );
-
-        // regularCarpets.removeAll(persianCarpets);
-        regularCarpets.removeIf( p->p.isPersian );
+        ArrayList<Carpet> regularCarpets = new ArrayList<>(Arrays.asList(carpets));
+        // regularCarpets.removeAll(persianCarpets); - this one works too
+        regularCarpets.removeIf(c->c.isPersian);
 
         System.out.println( "There are " + regularCarpets.size() + " regular carpets");
 
         for (int i=0; i<regularCarpets.size(); i++){
-            System.out.println( regularCarpets.get(i).calcCost() );
+            System.out.println(regularCarpets.get(i).calcCost());
         }
+
         }
 }

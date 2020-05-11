@@ -24,6 +24,10 @@ public class CatObjects {
         for (int i=0; i<catList.size(); i++){
             System.out.println( catList.get(i) );
         }
+        for (Cat eachCat : catList){
+            System.out.println(eachCat);
+        }
+
         System.out.println("==========================");
 
         cat1.sleep();

@@ -1,7 +1,11 @@
 package day34_CustomClass;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class DogObjects2 {
     public static void main(String[] args) {
+
         String food1= "chicken";
         String food2 = "fish";
 

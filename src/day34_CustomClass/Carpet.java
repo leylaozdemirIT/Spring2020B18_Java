@@ -7,22 +7,22 @@ public class Carpet {
     double unitPrice;
     boolean isPersian;
 
-
-    public double calcCost(){
-        double total = (width + length) * unitPrice;
-        if(isPersian){
-            return total+200;
-        }else{
+    public double calcCost() {
+        double total = (width * length) * unitPrice;
+        if (isPersian) {
+            return total += 200;
+        } else {
             return total;
         }
-
-        //return  (isPersian) ?  total+200 : total;
     }
 
-    public void customOrder(double carpetWidth, double carpetLength, double carpetUnitPrice, boolean carpetPersian ){
-        width = carpetWidth;
+
+    //return  (isPersian) ?  total+200 : total;
+
+    public void customOrder(double CarpetWidth, double carpetLength, double CarpetunitPrice, boolean carpetPersian) {
+        width = CarpetWidth;
         length = carpetLength;
-        unitPrice = carpetUnitPrice;
+        unitPrice = CarpetunitPrice;
         isPersian = carpetPersian;
     }
 
