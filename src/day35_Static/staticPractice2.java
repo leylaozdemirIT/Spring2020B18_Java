@@ -15,9 +15,10 @@ public class staticPractice2 {
         System.out.println(Model);
     }
 
-    public  static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(hasWheels);
     }
+
 
 
 

@@ -10,7 +10,7 @@ public class StaticBlock2 {
 
     static Tester tester1 = new Tester();
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         tester1.setTesterInfo("Jean",123,"SDET",120000);
         System.out.println(tester1);
     }

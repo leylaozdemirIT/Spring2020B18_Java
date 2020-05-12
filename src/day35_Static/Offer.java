@@ -15,19 +15,16 @@ public class Offer {
     double salary;
     boolean isFullTime;
 
-    public void setInfo(String location, String company, double salary, boolean isFullTime){
-
-        this.location = location;
-        this.company = company;
-        this.salary = salary;
-        this.isFullTime = isFullTime;
-
-    }
-
+   public void setInfo(String location, String company, double salary, boolean isFullTime){
+       this.location = location;
+       this.company = company;
+       this.salary = salary;
+       this.isFullTime = isFullTime;
+   }
 
     public String toString(){
         String salary = ""+this.salary;
-        // string now cna be maniupulated
+        // string now can be manipulated
         return "Location: "+location+
                 ", Company: " +company +
                 ", Salary: $"+salary +

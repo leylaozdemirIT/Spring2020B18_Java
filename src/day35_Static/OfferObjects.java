@@ -29,12 +29,13 @@ public class OfferObjects {
         Offer offer4 = new Offer();
         offer4.setInfo("BayArea","Google",115_000,false);
 
-        Offer[] offers = {offer1, offer2, offer3, offer4};
+        Offer []offers = {offer1,offer2,offer3,offer4};
 
         String myLocation = "VA";  // my current state
 
         ArrayList<Offer> Accept = new ArrayList<>( Arrays.asList(offers) );
-        // Accept.removeIf(  p ->  p.salary < 100000 ||  p.isFullTime == false || !p.location.equals(myLocation)  ); // we remove the offer if it's less than 100K or not full time
+        // Accept.removeIf(  p ->  p.salary < 100000 ||  p.isFullTime == false || !p.location.equals(myLocation)  );
+        // we remove the offer if it's less than 100K or not full time
         Accept.removeIf(p ->  p.salary < 100000 );
         Accept.removeIf(p -> p.isFullTime == false );
         Accept.removeIf( p -> !p.location.equals(myLocation));

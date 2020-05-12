@@ -7,7 +7,7 @@ public class staticPractice {
 
     static  Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // this is static method
         //   Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter num1");
@@ -20,7 +20,7 @@ public class staticPractice {
     }
 
 
-    public void method1(){
+    public void method1(){ // this is instance method
         //   Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter num1");

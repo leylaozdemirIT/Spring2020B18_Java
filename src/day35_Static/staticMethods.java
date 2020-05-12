@@ -15,6 +15,7 @@ public class staticMethods {
         System.out.println("==========================");
 
         System.out.println( b );
+
         System.out.println( staticMethods.b );
         System.out.println( obj.b );  //  prefers to be called through class name
 

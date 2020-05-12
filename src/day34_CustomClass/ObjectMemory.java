@@ -5,11 +5,11 @@ import java.util.Arrays;
 
 public class ObjectMemory {
 
-    int i = 1000; // this is instance variable.it is declared outside the method
+    int i = 1000; // this is instance variable.it is declared outside the method.Heap memory
 
-    public static void main(String[] args) {
-        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
-
+    public static void main(String[] args) { // main method: Stack memory
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40)); // heap memory
+        // list1 - Stack memory
         ArrayList<Integer> list2 = list1;
 
         list1.remove(2);
@@ -26,6 +26,6 @@ public class ObjectMemory {
         System.out.println(str1);
         System.out.println(str2);
 
-        int a = 300;
+        int a = 300; // Stack memory
     }
 }
