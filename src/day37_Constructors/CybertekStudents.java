@@ -3,9 +3,9 @@ package day37_Constructors;
 public class CybertekStudents {
 
     static String schoolName = "Cybertek University";
-    String studentName;
-    int groupNumber;
-    String batch;
+    String studentName; // we need to know
+    int groupNumber; // we need to know
+    String batch;   // we need to know
 
     public CybertekStudents(String studentName, int groupNumber, String batch) {
         // schoolName = "Cybertek University";

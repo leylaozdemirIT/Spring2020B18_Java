@@ -11,7 +11,6 @@ public class Employee {
 					toString(): can return the info of the employee as string
 
     */
-
     String name;
     long id;
     long ssn;
@@ -19,7 +18,7 @@ public class Employee {
     double salary;
     char gender;
 
-    public void setInfo (String name, long id, long ssn, String jobTitle, double salary, char gender){
+    public void setInfo(String name, long id, long ssn, String jobTitle, double salary, char gender){
         this.name = name;
         this.id = id;
         this.ssn = ssn;

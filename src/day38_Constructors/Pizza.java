@@ -19,30 +19,30 @@ package day38_Constructors;
 
 public class Pizza {
     String size;
-    int numberOfCheeseTopping;
-    int numberOfPepTop;
+    int noOfCheeseTopping;
+    int noOfPepTop;
     double cost;
 
-    public Pizza (String size,int numberOfCheeseTopping, int numberOfPepTop){
+    public Pizza (String size,int noOfCheeseTopping, int noOfPepTop){
         this.size = size;
-        this.numberOfCheeseTopping = numberOfCheeseTopping;
-        this.numberOfPepTop = numberOfPepTop;
+        this.noOfCheeseTopping = noOfCheeseTopping;
+        this.noOfPepTop = noOfPepTop;
     }
 
-    public void calcCost(){
+    public double calcCost(){
         if (size.equalsIgnoreCase("small")){
-            cost = 10 + (1.5 * numberOfPepTop)+(numberOfCheeseTopping);
+            return 10 + (1.5 * noOfPepTop)+(noOfCheeseTopping);
         }else if (size.equalsIgnoreCase("medium")){
-            cost = 15 + (1.5*numberOfPepTop) + (numberOfCheeseTopping);
+            return 15 + (1.5*noOfPepTop) + (noOfCheeseTopping);
         }else {
-            cost = 14 + (1.5 * numberOfPepTop) + (numberOfCheeseTopping);
+            return 14 + (1.5 * noOfPepTop) + (noOfCheeseTopping);
         }
     }
 
     public String toString(){
         return "pizza size: " + size +
-                " number of CheeseTopping: "+numberOfCheeseTopping +
-                " number of Pepperoni Topping: " + numberOfPepTop +
+                " number of CheeseTopping: "+noOfCheeseTopping +
+                " number of Pepperoni Topping: " + noOfPepTop +
                 " Total Cost: $" + cost;
     }
 

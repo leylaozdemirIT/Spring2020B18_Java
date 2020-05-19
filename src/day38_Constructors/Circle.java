@@ -13,20 +13,20 @@ Create a class called Circle
                   area of circle = PI * r * r
  */
 public class Circle {
+
     static double pi = 3.14;
-    double diameter;
     double radius;
+    double diameter;
 
     public Circle(double radius){
         this.radius = radius;
         diameter = radius * 2;
     }
-
+    public double area(){
+        return pi * radius * radius;
+    }
     public double perimeter (){
         return 2*radius*pi;
-    }
-    public double area (){
-        return pi* radius * radius;
     }
 
     public String toString(){

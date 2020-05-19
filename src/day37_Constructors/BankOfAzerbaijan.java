@@ -16,12 +16,14 @@ public class BankOfAzerbaijan {
 
     public static void main(String[] args) {
         ArrayList<Employee> list = new ArrayList<>();
-        list.add( HumanResources.employee3 ); // index 0
-        list.add( HumanResources.employee1);  // index 1
+        list.add(HumanResources.employee1); // index 0
+        list.add(HumanResources.employee3); // index 1
 
-        System.out.println( list.get(0) );
-        System.out.println( list.get(1) );
+        System.out.println(list.get(0));
+        System.out.println(list.get(1));
     }
+
+
 
 
 

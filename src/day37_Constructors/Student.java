@@ -7,17 +7,17 @@ public class Student {
     char gender;
     String university;
 
-    public Student(String name, int age, char gender,String university){
+    public Student(String name, int age, char gender, String university){
         this.name = name;
-        this.age = age;
         this.gender = gender;
+        this.age = age;
         this.university = university;
     }
 
-    public void SetInfo(String name, int age, char gender, String university){
+    public void setInfo(String name, int age, char gender, String university){
         this.name = name;
-        this.age = age;
         this.gender = gender;
+        this.age = age;
         this.university = university;
     }
     public String toString(){

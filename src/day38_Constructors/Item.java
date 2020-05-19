@@ -14,12 +14,11 @@ public class Item {
     int quantity;
     double unitPrice;
 
-    public Item(String name,int quantity,double unitPrice){
+    public Item(String name, int quantity, double unitPrice){
         this.name = name;
         this.quantity = quantity;
         this.unitPrice = unitPrice;
     }
-
     public double calcCost(){
         return quantity * unitPrice;
     }

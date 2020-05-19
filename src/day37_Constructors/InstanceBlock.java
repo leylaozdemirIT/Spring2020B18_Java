@@ -8,6 +8,7 @@ public class InstanceBlock {
 
     {
         System.out.println("Instance Block1");
+
     }
 
     public static void main(String[] args) {
@@ -19,5 +20,7 @@ public class InstanceBlock {
     {
         System.out.println("Instance Block2");
     }
+
+
 
 }

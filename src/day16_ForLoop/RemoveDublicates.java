@@ -1,6 +1,7 @@
 package day16_ForLoop;
 import java.util.Scanner;
 public class RemoveDublicates {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

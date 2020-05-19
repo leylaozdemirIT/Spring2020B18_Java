@@ -14,10 +14,12 @@ public class PizzaObjects {
 
         ArrayList<Pizza> pizzas = new ArrayList<>(Arrays.asList(pizza1,pizza2,pizza3,pizza4,pizza5));
 
+        double cost = 0;
         for (Pizza each:pizzas){
-            each.calcCost();
+            cost += each.calcCost();
+            System.out.println(each.calcCost());
         }
-        System.out.println(pizzas);
+        System.out.println("Total Cost: $ "+cost);
     }
 
 

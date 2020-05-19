@@ -11,17 +11,19 @@ public class Dog {
         breed = "unknown";
         age = 0;
     }
-    public Dog (String breed){
+
+    public Dog(String breed){
         this.breed = breed;
         name = "unknown";
         age = 0;
+    }
 
-    }
-    public Dog (String breed,int age){
+    public Dog(String breed, int age){
         this.breed = breed;
-        name = "unknown";
         this.age = age;
+        name = "unknown";
     }
+
     public String toString(){
         return "Name: "+ name + " , breed: "+breed+ ", age: "+age;
     }
