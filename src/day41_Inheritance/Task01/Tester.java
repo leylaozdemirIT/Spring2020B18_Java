@@ -1,7 +1,5 @@
 package day41_Inheritance.Task01;
 
-import day41_Inheritance.Task01.Employee;
-
 public class Tester extends Employee {
 
     /*

@@ -7,7 +7,7 @@ public class BankAccount {
     public double balance;
 
     public void deposit(int amount){
-        balance+=amount;
+        balance += amount;
     }
     public void showBalance(){
         System.out.println("Available balance: " + balance);

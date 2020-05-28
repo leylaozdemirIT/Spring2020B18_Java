@@ -8,9 +8,9 @@ public class AccountObjects {
         obj.accountHolder = "Saban";
 
         obj.showBalance();
-        System.out.println( obj );
+        System.out.println(obj);
 
-        obj.deposit(25000);
+        obj.deposit(2000);
         obj.showBalance();
 
         obj.withDraw(10000);

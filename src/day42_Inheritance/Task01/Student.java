@@ -30,7 +30,7 @@ public class Student extends Person{
     public void code(){
         System.out.println(name + " is coding");
     }
-    public void setStudentInfo(String leyla, int i, char f, long studentID, String clazz){
+    public void setStudentInfo(String name, int age, char gender, long studentID, String clazz){
         setPersonInfo(name,age,gender);
         this.studentID = studentID;
         this.clazz = clazz;

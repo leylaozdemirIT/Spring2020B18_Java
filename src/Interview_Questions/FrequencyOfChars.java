@@ -1,41 +1,42 @@
 package Interview_Questions;
-
-
-
+// write a return method that can find the frequency of characters
 public class FrequencyOfChars {
-    public void main(String[] args) {
-        FrequencyOfChars("AAABBCCDDDD");
+    public static void main(String[] args) {
+        String str = FrequencyOfChars("AAABBCCDDDD");
+        System.out.println(str);
+
     }
 
+    public static String FrequencyOfChars(String str) {
+
+        String nonDup = "";
+
+        for (int i = 0; i < str.length(); i++)
+
+            if (!nonDup.contains("" + str.charAt(i)))
+
+                nonDup += "" + str.charAt(i);
 
 
-    public String FrequencyOfChars(String str){
+        String expectedResult = "";
 
-        str = "AAABBCCDDDDD";
-        String nonDup = ""; //ABCD
-        String result = "";
+        for (int j = 0; j < nonDup.length(); j++) {
 
-        for (int i=0; i<str.length(); i++){
-
-            if (! nonDup.contains("" + str.charAt(i))){
-                nonDup+=""+str.charAt(i);
-            }
-        }
-
-        for (int j=0; j<str.length(); j++){
             int count = 0;
-            for (int i=0; i<str.length(); i++){
-                if ( str.charAt(i) == nonDup.charAt(j) ){
+
+            for (int i = 0; i < str.length(); i++) {
+
+                if (str.charAt(i) == nonDup.charAt(j))
+
                     count++;
-                }
+
             }
-            result += "" + nonDup.charAt(j) + count;
+
+            expectedResult += nonDup.charAt(j) + "" + count;
+
         }
 
-        System.out.println(result);
+        return expectedResult;
 
-
-        return result;
     }
 }
-

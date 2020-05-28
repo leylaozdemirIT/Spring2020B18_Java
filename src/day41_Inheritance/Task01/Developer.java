@@ -1,6 +1,5 @@
 package day41_Inheritance.Task01;
 
-import day41_Inheritance.Task01.Employee;
 /*
 create a subclass of employee name it developer
 variables: salary, name, id, jobTitle, gender,

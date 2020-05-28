@@ -3,7 +3,8 @@ package day42_Inheritance.Task01;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class School { // School has a Student
+public class School { // School has a Student. This is HAS A relation.
+    // we did not inherit. Just created objects from Student class
 
     public static void main(String[] args) {
         Student student1 = new Student();
@@ -15,7 +16,7 @@ public class School { // School has a Student
         Student student3 = new Student();
         student3.setStudentInfo("Bykal",10,'M',2309,"soccer");
 
-        ArrayList<Student> students = new ArrayList(Arrays.asList(student1,student2));
+        ArrayList<Student> students = new ArrayList(Arrays.asList(student1,student2,student3));
 
         for (Student eachStudent : students){
             System.out.println(eachStudent);

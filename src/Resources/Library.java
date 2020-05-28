@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Library {
 
-    public static int[] sortDesending(int[] arr){
+    public static int[] sortDescending(int[] arr){
         Arrays.sort(arr);  // {1,2,3,4};  ==> {4,3,2,1};
         int[] RevArr = new int[arr.length] ;
 
@@ -67,7 +67,7 @@ public class Library {
 
     public static String FrequencyOfChars(String str){
         String NonDup =  Library.RemoveDuplicates(str)  ;             //ABC
-        String result = ""; //coantisn the frequency of chars
+        String result = ""; //contains the frequency of chars
 
         for(int i =0; i < NonDup.length();i++){
             String ch = ""+NonDup.charAt(i);//  "A"

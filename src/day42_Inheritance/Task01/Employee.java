@@ -34,17 +34,16 @@ public class Employee extends Person{
     public void work(){
         System.out.println(name + " is working");
     }
-    public void setEmployeeInfo(String name, int age, char gender, double salary,long employeeID,String jobTitle) {
-       // this.name = name;
-       // this.age = age;
-       // this.gender = gender;
+    public void setEmployeeInfo(String name, int age, char gender, double salary, long employeeID, String jobTitle){
+        // this.name = name;
+        // this.age = age;
+        // this.gender = gender;
         setPersonInfo(name,age,gender); // try to understand this - same as the above 3 lines
-        this.salary = salary;
-        this.employeeID = employeeID;
-        this.jobTitle = jobTitle;
-
+        this.salary=salary;
+        this.employeeID=employeeID;
+        this.jobTitle=jobTitle;
     }
-    public String toString(){
+       public String toString(){
         return "Name: "+name+", Job Title: "+jobTitle+", ID: "+employeeID+", Salary: "+
                 salary+", age: "+age+", gender: "+gender;
     }
