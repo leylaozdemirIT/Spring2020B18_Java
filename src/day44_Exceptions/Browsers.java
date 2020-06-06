@@ -57,6 +57,15 @@ class FirefoxBrowser extends Browsers {
     }
 }
 
+class OperaBrowser extends Browsers{
+    public void openBrowser(){
+        System.out.println("Opening the Opera Browser");
+    }
+    public void closeBrowser(){
+        System.out.println("Closing the Opera Browser");
+    }
+}
+
 class Test{
     public static void main(String[] args) {
         ChromeBrowser obj = new  ChromeBrowser();
@@ -67,6 +76,11 @@ class Test{
         FirefoxBrowser obj2 = new FirefoxBrowser();
         obj2.openBrowser();
         obj2.closeBrowser();
+
+        System.out.println("==================================");
+        OperaBrowser op = new OperaBrowser();
+        op.openBrowser();
+        op.closeBrowser();
 
     }
 

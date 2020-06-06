@@ -18,7 +18,7 @@ class test{
 public class Constructor2 extends test{
 
     public Constructor2(){
-        super("Hello"); // STring
+        super("Hello"); // String
         System.out.println("default"); //default
     }
 

@@ -8,7 +8,6 @@ public class Credentials {
     public String getUserName(){
         return UserName;
     }
-
     public void setUserName(String UserName){
         this.UserName = UserName;
     }

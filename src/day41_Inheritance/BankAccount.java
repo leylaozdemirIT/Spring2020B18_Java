@@ -55,7 +55,6 @@ public class BankAccount {
         setBalance(balance - amount);
     }
     public void checkBalance(){
-        System.out.println("Available balance");
         System.out.println("Available balance is: "+getBalance());
     }
 
