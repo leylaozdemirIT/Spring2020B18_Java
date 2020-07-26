@@ -10,18 +10,19 @@ public class FindMaximum {
         System.out.println(FindMaximum2(arr));
     }
 
-    public static int FindMaximum(int[]arr){
+    public static int FindMaximum(int[]arr) {
         // {5,8,7,50}
-        int max = Integer.MAX_VALUE;
-        Arrays.sort(arr);
-        for (int i=0; i<arr.length; i++){
-            if (arr[i] > max);
-            max = arr[i];
+        int max = Integer.MIN_VALUE; // -1234567
+        for (int each : arr) {
+            if (each > max) {
+                max = each;
+            }
         }
         return max;
     }
-    public static int FindMaximum2(int[]arr){
-        Arrays.sort(arr);
-        return arr[arr.length-1];
+
+    public static int FindMaximum2(int []arr){
+    Arrays.sort(arr);
+    return arr[arr.length-1];
     }
 }

@@ -13,4 +13,4 @@ public final class final_class extends Data{
     }
 
 }
-// class Data2 extends final_class{} // final class can NEVER be super class
+//class Data2 extends final_class{} // final class can NEVER be super class

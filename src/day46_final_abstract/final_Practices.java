@@ -7,7 +7,7 @@ public class final_Practices {
 
     {
         System.out.println(a);
-        //  a = 20; // cannot be reassigned
+         // a = 20; // cannot be reassigned
     }
 
     static{
@@ -22,21 +22,16 @@ public class final_Practices {
     final void method1(){
 
     }
-
+    private final int method1(int a){ // we can overload instance method
+        return 12;
+    }
     public final static void method2(){
 
-    }
-
-    private final int method1(int a){
-        return 12;
     }
 
     public final static void method2(int a){
 
     }
-
-
-
 }
 
 final class test extends final_Practices{

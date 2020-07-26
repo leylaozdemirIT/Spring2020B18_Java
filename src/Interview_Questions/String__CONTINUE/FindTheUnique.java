@@ -6,13 +6,12 @@ public class FindTheUnique {
     }
 
     public static String FindTheUnique(String str) {
-        String[] arr = str.split("");
+        String[] arr = str.split(""); // A D D C C E
         String uniques = "";
-
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) { // A
             int count = 0;
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[j].equals(arr[i])) {
+            for (int j = 0; j < arr.length; j++) { // A D D C C E
+                if (arr[j].equals(arr[i])){
                     count++;
                 }
             }

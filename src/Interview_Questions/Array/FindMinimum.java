@@ -13,8 +13,8 @@ public class FindMinimum {
         int min = Integer.MAX_VALUE; // 123456789
 
         for (int i=0; i<arr.length; i++){
-            if (arr[i] < min){      // 0 < 123456789
-                min = arr[i];       // 0
+            if (arr[i] < min){      // 10 < 123456789
+                min = arr[i];       // 10
             }
         }
         return min;

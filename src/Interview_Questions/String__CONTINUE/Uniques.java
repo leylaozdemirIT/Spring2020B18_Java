@@ -11,23 +11,16 @@ public static String FindTheUnique(String str) {
 
 // AAAABBBBBCDDDDE
     String uniques = "";
-
-
-    for (int j = 0; j < str.length(); j++) {
+    for (int i = 0; i < str.length(); i++) {
         int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i)==str.charAt(j)) {
+        for (int j = 0; j < str.length(); j++) {
+            if (str.charAt(j) == str.charAt(i)) {
                 count++;
             }
-
         }
-
         if (count == 1) {
-            uniques += str.charAt(j);
+            uniques += str.charAt(i);
         }
     }
     return uniques;
-}
-}
-
-
+}}

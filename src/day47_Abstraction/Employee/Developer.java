@@ -3,10 +3,8 @@ package day47_Abstraction.Employee;
 public class Developer extends Employee{
 
     public Developer(String name, int age, char gender, double salary){
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.salary = salary;
+        super(name,age,gender,salary);
+
     }
     @Override
     public void work() {

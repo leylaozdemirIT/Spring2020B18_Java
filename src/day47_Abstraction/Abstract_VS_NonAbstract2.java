@@ -7,8 +7,8 @@ abstract class A {
 }
 
 
-public class Abstract_VS_NonAbstract2 extends A{ // MANDATORY to override the abstratc method of A
-    // 2 methods
+public class Abstract_VS_NonAbstract2 extends A{ // MANDATORY to override the abstract method of A
+    // 2 methods - both are instance methods.Abstract methods can not exist in normal class8
     public void method1(){
 
     }
@@ -16,10 +16,10 @@ public class Abstract_VS_NonAbstract2 extends A{ // MANDATORY to override the ab
 }
 
 
-abstract class B extends A{  // optional to override the abstratc method of A
+abstract class B extends A{  // optional to override the abstract method of A
 // one abstract & one instance methods
 
-    // public abstract void method1();
+    public abstract void method1();
 
 }
 

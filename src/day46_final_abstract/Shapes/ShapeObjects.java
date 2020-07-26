@@ -11,5 +11,8 @@ public class ShapeObjects {
 
         Rectangle obj2 = new Rectangle(5,4);
         obj2.Area();
+
+        Triangle obj3 = new Triangle(5,4.5);
+        obj3.Area();
     }
 }

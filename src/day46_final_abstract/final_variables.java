@@ -17,7 +17,7 @@ public class final_variables {
         // gender = "Female"
 
         final int score;
-        score = 100;
+        score = 100; // we can only initialize ONLY one time
         // score = 101;
         System.out.println(score);
 
